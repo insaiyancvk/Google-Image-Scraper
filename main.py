@@ -16,10 +16,19 @@ if __name__ == "__main__":
     image_path = os.path.normpath(os.getcwd()+"\\photos")
 
     #Add new search key into array ["cat","t-shirt","apple","orange","pear","fish"]
-    search_keys= ['apple','t-shirt']
+    search_keys= [
+        'Chichi dragon ball OR Z OR super OR fanart',
+        'Frieza dragon ball OR Z OR super OR fanart',
+        'Kuririn dragon ball OR Z OR super OR fanart',
+        'Piccolo dragon ball OR Z OR super OR fanart',
+        'Son Gohan dragon ball OR Z OR super OR fanart',
+        'Son Goku dragon ball OR Z OR super OR fanart',
+        'Trunks dragon ball OR Z OR super OR fanart',
+        'Vegeta dragon ball OR Z OR super OR fanart'
+        ]
 
     #Parameters
-    number_of_images = 5
+    number_of_images = 500
     headless = False
     min_resolution=(0,0)
     max_resolution=(9999,9999)
